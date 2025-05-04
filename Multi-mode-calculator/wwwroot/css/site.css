@@ -1,0 +1,68 @@
+body.theme-offwhite {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+.main-header {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.main-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.mode-buttons {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+    .mode-buttons button {
+        margin: 5px;
+        padding: 10px 20px;
+        border: none;
+        background: #333;
+        color: #fff;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+        .mode-buttons button:hover {
+            background: #555;
+        }
+
+.mode-section {
+    display: none;
+}
+
+    .mode-section.active {
+        display: block;
+    }
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+    .buttons button {
+        flex: 1 0 20%;
+        background-color: #444;
+        color: #fff;
+    }
